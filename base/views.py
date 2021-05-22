@@ -20,6 +20,9 @@ from .models import Task
 
 # Create your views here.
 
+def index():
+    pass
+
 class CustomLoginView(LoginView):
     template_name='base/login.html'
     fields = '__all__'
